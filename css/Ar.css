@@ -1,0 +1,182 @@
+
+
+
+@font-face {
+    font-family: 'DINN';
+    src: url(../fonts/DINNextLTArabic-Light.ttf);
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'DINN';
+    src: url(../fonts/DINNextLTArabic-Regular.ttf);
+    font-weight: 400;
+}@font-face {
+    font-family: 'DINN';
+    src: url(../fonts/DINNextLTArabic-Medium.ttf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'DINN';
+url('../fonts/DINNextLTArabic-Bold.ttf')  format('truetype'),
+url('../fonts/BahijTheSansArabic-Bold/BahijTheSansArabic-Bold.svg#BahijTheSansArabic-Bold') format('svg');
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'DINN';
+url('../fonts/DINNextLTArabic-Black.ttf')  format('truetype'),
+url('../fonts/BahijTheSansArabic-SemiBold/BahijTheSansArabic-SemiBold.svg#BahijTheSansArabic-SemiBold') format('svg');
+    font-weight: 600;
+}
+body {
+    direction: rtl;
+    font-family: 'DINN' !important;
+
+}
+
+h1, h2, h3, h4, h5, h6, p,
+.banner-style-four .content-box p{
+    font-family: 'DINN' !important
+}
+
+.hero-download-section .inner-container {
+    left: 0;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    right: unset;
+
+    padding: 87px  146px 55px  376px
+}
+.banner-style-four .image-box,
+.testimonial-content {
+    text-align: right;
+}
+.download-links a:first-child {
+    margin-right: 0;
+    margin-left: 32px;
+}
+.hero-download-section h3,
+.join-us-section .sec-title,
+.about-section .sec-title,
+.news-block-two .inner-box .lower-content h3,
+.news-block-two .inner-box .lower-content .city{
+    text-align: right;
+}
+.news-block-two .inner-box .lower-content .city i {
+    margin-right: 0;
+    margin-left: 10px;
+}
+.inner-container .download-btn {
+    text-align: left;
+}
+.testimonial-last .download-btn {
+    text-align: right;
+}
+.testimonial-last.style-six .about-widget .download-btn a:first-child {
+    margin-right: 0;
+    margin-left: 32px;
+}
+.sec-title h2:after {
+    right: unset;
+    left: -5%;
+}
+.about-widgets-cards,
+.single-item-carousel .owl-nav {
+    right: unset;
+    left: 0;
+}
+.single-item-carousel {
+    direction: ltr;
+}
+.join-us-section .single-item-carousel {
+    right: unset;
+    right: 8%;
+}
+.testimonial-last .content-boxو
+.footer-sticky .about-widget,
+.footer-widget,
+.join-us-section .btn-box,
+.mobile-menu .navigation,
+.mobile-menu .contact-info,.mobile-menu .social-links,
+.testimonial-content .rating li,
+.modal-body .title h3, .modal-body .title p,
+.footer-logo, .info
+{
+    text-align: right;
+}
+.testimonial-last .sec-title h2:after {
+    left: -5%;
+    right: unset;
+}
+.testimonial-content .rating li,.modal-body .title {
+    float: right;
+}
+.join-us-section .single-item-carousel .owl-nav {
+    bottom: 46px!important;
+    left: 15px;
+}
+.info a {
+    margin-right: 0;
+    margin-left: 15px;
+    float: right;
+}
+.copyrightRight,
+.modal .btn-box {
+    text-align: left;
+}
+.footer-sticky .contact-widget .social-links li:last-child{
+    margin-left: 0;
+}
+.modal-body .close{
+    float: left;
+}
+.content_block .content-box .text ,
+.testimonial-content .inner-box .text{
+    word-break: unset;
+}
+.main-menu .navigation > li,
+.sticky-header .logo-box{
+    float: right;
+}
+#image_block_30 {
+    right: 245px;
+}
+.main-box .pull-left {
+    float: right;
+}
+.main-box .pull-right,
+.sticky-header .menu-area{
+    float: left;
+}
+
+.sec-title h2 span:after {
+    right: 0;
+    left: unset;
+}
+.map {
+    text-align: right;
+}
+@media only screen and (max-width: 599px){
+    .sec-title h2 span:after {
+        top: 7px
+    }
+}
+.bubble1 {
+    left: -75px;
+    right: unset!important;
+}
+.bubble2 {
+    right: 9%;
+    left:unset;
+}
+.main-menu .navigation > li:last-child {
+    margin-right: 25px!important;
+    margin-left: 0!important;
+}
+
+@media only screen and (max-width: 767px) {
+    .info a {
+        margin-left: 10px;
+    }
+}
